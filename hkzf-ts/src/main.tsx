@@ -1,11 +1,15 @@
+import './index.css';
+import "antd-mobile/dist/antd-mobile.css";
+
+
 import React from 'react'
 import ReactDOM from 'react-dom'
-import './index.css'
-import App from './App'
-
+import { renderRoutes } from "react-router-config";
+import { HashRouter } from "react-router-dom"
+import routes from './routes/routes';
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  <HashRouter>
+    {renderRoutes(routes)}
+  </HashRouter>,
   document.getElementById('root')
 )
