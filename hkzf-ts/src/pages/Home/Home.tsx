@@ -5,6 +5,8 @@ import HomeSwiper from "./HomeSwiper";
 import HomeNav from "./HomeNav";
 // 首页导航组件
 import HomeGroup from "./HomeGroup";
+// 资讯组件
+import HomeNews from "./HomeNews";
 const Home: FC<any> = () => {
   return (
     <div className="Home">
@@ -13,6 +15,8 @@ const Home: FC<any> = () => {
       <HomeNav></HomeNav>
       {/* 租房小组 */}
       <HomeGroup></HomeGroup>
+      {/* 资讯 */}
+      <HomeNews></HomeNews>
     </div>
   )
 }

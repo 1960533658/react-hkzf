@@ -1,0 +1,39 @@
+.homenews {
+  margin-bottom: 50px;
+  padding: 0 10px;
+  background-color: #fff;
+
+  h3 {
+    font-size: 15px;
+  }
+
+  .news-item {
+    display: flex;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 10px;
+
+    img {
+      width: 120px;
+      height: 90px;
+    }
+
+    .new-item-content {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      padding: 0px 10px;
+
+      .new-item-content-title {
+        font-weight: bold;
+      }
+      .new-item-content-tips {
+        display: flex;
+        justify-content: space-between;
+        span {
+          color: #999;
+        }
+      }
+    }
+  }
+}

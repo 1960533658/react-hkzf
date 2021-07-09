@@ -28,7 +28,6 @@ const HomeSwiper = () => {
       setSwiperData(response.body)
       // 修改值为true说明已经成功赋值
       setHasSwiperData(true)
-      console.log(hasSwiperData);
     })
   }
   return (
